@@ -1,0 +1,3 @@
+object RootMain extends App {
+
+}

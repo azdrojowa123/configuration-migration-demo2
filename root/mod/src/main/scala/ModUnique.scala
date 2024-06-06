@@ -1,0 +1,3 @@
+object ModUnique extends App {
+
+}
