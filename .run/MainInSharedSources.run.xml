@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="MainInSharedSources" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="MainInSharedSources" />
-    <module name="cross3JVM" />
+    <module name="root.cross3.cross3JVM" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

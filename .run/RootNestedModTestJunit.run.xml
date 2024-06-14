@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="RootNestedModTestJunit" type="JUnit" factoryName="JUnit">
-    <module name="root.mod" />
+    <module name="root~1.mod" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="com.example.*" />

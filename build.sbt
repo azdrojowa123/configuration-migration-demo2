@@ -7,13 +7,10 @@ val root1 = ProjectRef(file("root"), "root")
 lazy val cross3 = crossProject(JVMPlatform, JSPlatform)
   .build()
 
+lazy val foo = (project in file("foo"))
+
 lazy val mod = (project in file("mod"))
-  .settings(
-    libraryDependencies ++= Seq(
-      "org.junit.jupiter" % "junit-jupiter-api" % "5.10.2" % Test,
-      "org.scalatest" %% "scalatest" % "3.2.18" % Test
-    )
-  )
+  .dependsOn(cross3.jvm, foo)
 
 lazy val root = (project in file("."))
   .settings(
@@ -21,9 +18,7 @@ lazy val root = (project in file("."))
       "org.scalatest" %% "scalatest" % "3.2.18" % Test
     )
   )
-  .dependsOn(root1, cross3.jvm)
-
-
+  .dependsOn(root1, mod)
 
 
 

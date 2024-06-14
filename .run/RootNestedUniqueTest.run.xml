@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="RootNestedUniqueTest" type="JUnit" factoryName="JUnit">
-    <module name="crossProjectModules.root" />
+    <module name="root~1" />
     <option name="PACKAGE_NAME" value="" />
     <option name="MAIN_CLASS_NAME" value="RootTestUniqueClassName" />
     <option name="METHOD_NAME" value="" />
