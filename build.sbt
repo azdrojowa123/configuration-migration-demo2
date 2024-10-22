@@ -17,7 +17,7 @@ lazy val mod = (project in file("mod"))
 
 lazy val root = (project in file("."))
   .settings(
-    name := "crossProjectModules",
+    name := "root",
     libraryDependencies ++= Seq(
       "org.scalatest" %% "scalatest" % "3.2.18" % Test
     )
