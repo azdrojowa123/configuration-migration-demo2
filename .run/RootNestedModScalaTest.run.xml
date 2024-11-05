@@ -1,11 +1,14 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="RootNestedModScalaTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" show_console_on_std_err="false" show_console_on_std_out="false">
-    <module name="root~1.mod" />
+    <module name="root~1.mod.test" />
     <option name="VMParameters" value="" />
     <option name="allowRunningInParallel" value="false" />
     <option name="alternativeJrePath" />
     <option name="alternativeJrePathEnabled" value="false" />
     <option name="classpathModifications">
+      <list />
+    </option>
+    <option name="envFilePaths">
       <list />
     </option>
     <option name="envs">
@@ -21,6 +24,7 @@
     <option name="workingDirectory" value="$PROJECT_DIR$" />
     <option name="shortenClasspath" value="NONE" />
     <option name="testClassPath" value="com.example.ScalaTest" />
+    <option name="workingDirectory" value="$PROJECT_DIR$" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
